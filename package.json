@@ -1,14 +1,14 @@
 {
-  "name": "react-pdf-highlighter-extended-extended",
+  "name": "react-pdf-highlighter-extended-2",
   "type": "module",
-  "version": "1.0.14",
+  "version": "1.0.0",
   "description": "React component for highlighting PDFs",
-  "author": "Alyssa van Gorkom",
+  "author": "Alex Magwe",
   "license": "MIT",
   "contributors": [
     {
-      "name": "Alyssa van Gorkom",
-      "email": "alyssajvangorkom@gmail.com"
+      "name": "Alex Magwe",
+      "email": "alexmagwe@gmail.com"
     }
   ],
   "keywords": [
@@ -27,7 +27,7 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "(cd ./example && vite --force)",
-    "build": "npm run clean && npm i && npm run build:esm && npm run build:copy-styles && npm run build:example && npm run build:docs",
+    "build": "npm run clean && npm i && npm run build:esm && npm run build:copy-styles && npm run build:docs",
     "build:esm": "tsc",
     "build:copy-styles": "cp -r ./src/style ./dist/esm",
     "build:example": "(cd ./example && tsc && vite build && mkdir \"../public/\" && cp -r example-app ../public/)",
@@ -40,14 +40,14 @@
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8",
-    "pdfjs-dist": "^5.3.31"
+    "pdfjs-dist": "5.4.394"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alyssavangorkom/react-pdf-highlighter-extended-extended.git"
+    "url": "git+https://github.com/alexmagwe/react-pdf-highlighter-8.2"
   },
   "bugs": {
-    "url": "https://github.com/alyssavangorkom/react-pdf-highlighter-extended-extended/issues"
+    "url": "https://github.com/alexmagwe/react-pdf-highlighter-8.2/issues"
   },
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",
